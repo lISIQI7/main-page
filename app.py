@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 st.write(
-    f'<span style="font-size: 78px; line-height: 1">🐱</span>',
+    f'<span style="font-size: 78px; line-height: 1">🥝</span>',
     unsafe_allow_html=True,
 )
 
@@ -12,7 +12,7 @@ st.write(
 """
 
 st.caption(
-    "[Code for this demo](https://github.com/streamlit/static-file-serving-demo/blob/main/streamlit_app.py)"
+    "[Welcome this page](https://open-page.streamlit.app)"
 )
 
 """
@@ -30,7 +30,7 @@ enableStaticServing = true
 ```
 
 You can then access the files on `<your-app-url>/app/static/<filename>`. Read more in our 
-[docs](https://docs.streamlit.io/library/advanced-features/static-file-serving).
+[docs](https://page-store.streamlit.app).
 
 ## Examples
 
@@ -38,7 +38,7 @@ You can use this feature with `st.markdown` to put a link on an image:
 """
 
 with st.echo():
-    st.markdown("[![Click me](./app/static/cat.jpg)](https://streamlit.io)")
+    st.markdown("[![Click me](./app/static/P3.jpg)](https://streamlit.io)")
 
 """
 Or you can use images in HTML or SVG:
@@ -46,6 +46,6 @@ Or you can use images in HTML or SVG:
 
 with st.echo():
     st.markdown(
-        '<img src="./app/static/dog.jpg" height="333" style="border: 5px solid orange">',
+        '<img src="./app/static/P1.jpg" height="333" style="border: 5px solid black">',
         unsafe_allow_html=True,
     )
