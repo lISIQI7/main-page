@@ -46,6 +46,6 @@ Or you can use images in HTML or SVG:
 
 with st.echo():
     st.markdown(
-        '<img src="./app/static/P1.jpg" height="333" style="border: 5px solid black">',
+        '<img src="./app/static/03.jpg" height="333" style="border: 5px solid black">',
         unsafe_allow_html=True,
     )
