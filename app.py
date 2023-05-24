@@ -38,7 +38,7 @@ You can use this feature with `st.markdown` to put a link on an image:
 """
 
 with st.echo():
-    st.markdown("[![Click me](./app/static/p2.jpg)](https//lisiqi7-9gw75zh7d22f24d1)")
+    st.markdown("[![Click me](./app/static/p2.jpg)](lisiqi7-9gw75zh7d22f24d1-1317435016.tcloudbaseapp.com)")
 
 """
 Or you can use images in HTML or SVG:
